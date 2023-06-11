@@ -1,0 +1,1 @@
+-[aggregate,filter,transform](https://drawingfromdata.com/pandas/grouping/pandas-groupby-transform-aggregate-filter.html)
