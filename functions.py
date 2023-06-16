@@ -4,7 +4,8 @@ import warnings
 warnings.filterwarnings('ignore')
 import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = [10,5]
-
+import seaborn as sns
+sns.set()
 
 def load_data():
     data = pd.read_csv("data/data_ml.csv", header=0, index_col=0)
@@ -15,3 +16,5 @@ def load_data():
 
 features_short = ["Div_Yld", "Eps", "Mkt_Cap_12M_Usd", "Mom_11M_Usd", 
                     "Ocf", "Pb", "Vol1Y_Usd"]
+
+separation_data = "2014-01-15"
